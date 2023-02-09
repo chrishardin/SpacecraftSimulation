@@ -1,0 +1,7 @@
+Planets.csv
+systemName,name,radius,mass,positionX,positionY,positionZ,gravityParameter,atmosphereRadius
+Pok'Tul Zar,Kaltar Vex,67000,10,100,100,100,7.8,68000
+Pok'Tul Zar,Tha Nal,50000,24,2400,2400,2400,11.2,51000
+Pok'Tul Zar,Tyor Lom,60000,50,56000,23000,1000,9.1,61000
+Pok'Tul Zar,Orion,1000,100000,780000,780000,100,9,101000
+Pok'Tul Zar,Smeg,420,4200,40,400000,2000,0.4,4300

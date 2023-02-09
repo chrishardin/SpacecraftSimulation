@@ -1,0 +1,3 @@
+Spacecraft.csv
+name,area,mass,angularVelocity,maxVelocity,targetVelocityX,targetVelocityY,targetVelocitZ,targetAccelerationX,targetAccelerationY,targetAccelerationZ
+Gladiator,20,1708500,0.1,3000000,1000000,1000000,1000000,1000000,1000000,1000000	
