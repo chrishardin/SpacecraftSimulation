@@ -2,6 +2,7 @@
 #define SYSTEM_H
 
 #include <map>
+#include <string>
 
 class Planet;
 

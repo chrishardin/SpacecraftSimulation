@@ -7,6 +7,7 @@
 #include "PositionController.h"
 #include "VelocityController.h"
 #include "AccelerationController.h"
+#include <algorithm>
 
 ControlSystem::ControlSystem(Spacecraft* spacecraft) : _spacecraft(spacecraft), //_positionController(new PositionController()), _velocityController(new VelocityController()),  _accelerationController(new AccelerationController())
    _position(0.0, 0.0, 0.0), _velocity(0.0, 0.0, 0.0), _acceleration(0.0, 0.0, 0.0), _accelerationController(), _positionController(), _velocityController()
