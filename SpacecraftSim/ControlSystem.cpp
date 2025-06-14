@@ -50,7 +50,6 @@ void ControlSystem::update(double elapsedTime)
     // Update the position of the spacecraft based on its velocity
    // _spacecraft->setPosition(currentPos + _spacecraft->getVelocity() * elapsedTime);
 
-#if 0
     // Get planet information
     auto planet = _spacecraft->getAssociatedPlanet();
 
@@ -105,7 +104,6 @@ void ControlSystem::update(double elapsedTime)
     _spacecraft->setPosition(currentPos + _spacecraft->getVelocity() * elapsedTime);
 
     updateGNC();
-#endif
 }
 
 // Adding the PID controller
