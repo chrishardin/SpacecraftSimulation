@@ -13,9 +13,15 @@ Planet::Planet(std::string systemName, std::string name, double radius, double m
 Vector3<double> Planet::getGravitationalForce(double altitude, Vector3<double> position) const
 {
     Vector3<double> direction = _centerPosition - position;
-    // TODO: double magnitude = (_mass * getGravititationParameter()) / pow(direction.magnitude(), 2);
-    // TODO: return direction.normalize() * magnitude;
-    return position;
+    double distance = direction.magnitude();
+
+    if (distance == 0)
+    {
+        return Vector3<double>(0, 0, 0);
+    }
+
+    double magnitude = (_mass * getGravititationParameter()) / (distance * distance);
+    return direction.normalize() * magnitude;
 }
 
 
